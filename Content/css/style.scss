@@ -1,0 +1,54 @@
+.shopCar{
+  position: absolute;
+  top:0;
+  bottom:0;
+  width: 100%;
+  font-size: .12rem;
+  display: flex;
+  flex-direction: column;
+  .header{
+    height: .4rem;
+    background-color: skyblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    h1{
+      font-size: .18rem;
+    }
+  }
+  .section{
+    flex:1;
+    overflow-y: scroll;
+    .shop-list{
+      padding-top: 15px;
+      padding-bottom: 15px;
+      text-align: center;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      .circle{
+        width: 20px;
+        height: 20px;
+        border-radius: 100%;
+        background-color: #fff;
+        border: 1px solid #000;
+      }
+      .circle_ed{
+        background-color: red;
+      }
+      b{
+        font-size: .3rem;
+      }
+    }
+  }
+  .footer{
+    height: .4rem;
+    background-color: skyblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    h1{
+      font-size: .18rem;
+    }
+  }
+}

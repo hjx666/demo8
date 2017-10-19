@@ -1,0 +1,46 @@
+.shopCar {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  font-size: .12rem;
+  display: flex;
+  flex-direction: column; }
+  .shopCar .header {
+    height: .4rem;
+    background-color: skyblue;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .shopCar .header h1 {
+      font-size: .18rem; }
+  .shopCar .section {
+    flex: 1;
+    overflow-y: scroll; }
+    .shopCar .section .shop-list {
+      padding-top: 15px;
+      padding-bottom: 15px;
+      text-align: center;
+      display: flex;
+      align-items: center;
+      justify-content: space-between; }
+      .shopCar .section .shop-list .circle {
+        width: 20px;
+        height: 20px;
+        border-radius: 100%;
+        background-color: #fff;
+        border: 1px solid #000; }
+      .shopCar .section .shop-list .circle_ed {
+        background-color: red; }
+      .shopCar .section .shop-list b {
+        font-size: .3rem; }
+  .shopCar .footer {
+    height: .4rem;
+    background-color: skyblue;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .shopCar .footer h1 {
+      font-size: .18rem; }
+
+/*# sourceMappingURL=style.css.map */

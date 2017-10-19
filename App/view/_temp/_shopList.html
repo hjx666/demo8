@@ -1,0 +1,15 @@
+<div class="shop-list">
+    <li class="circle" ng-click="yesNo(index)" ng-class="{circle_ed:item.yesNo}"></li>
+    <span>
+        {{item.name}}
+    </span>
+    <span>
+        <b ng-click="reduceAdd('+',index)">+</b>
+        {{item.nums}}
+        <b ng-click="reduceAdd('-',index)">-</b>
+    </span>
+    <span>
+        {{item.money}}
+    </span>
+    <span ng-click="deleteItem(index)">删除</span>
+</div>

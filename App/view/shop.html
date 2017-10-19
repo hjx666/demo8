@@ -1,0 +1,19 @@
+<div class="shopCar">
+    <div class="header">
+        <h1>购物车</h1>
+    </div>
+    <div class="section">
+        <shop-list
+                ng-repeat="index in data"
+                item="index"
+                index="{{$index}}"
+                ></shop-list>
+    </div>
+    <div class="footer">
+        <span ng-click="allchecked()">全选</span>
+        <div>
+            <span>总价: <b>{{moneys}}</b></span>
+            <span>个数: <b>{{nums}}</b></span>
+        </div>
+    </div>
+</div>
